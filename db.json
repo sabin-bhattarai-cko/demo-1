@@ -1,14 +1,12 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+{"I'm visiting Login Page":1,
+ "I login as sales user":1,
+ "I select 'Create a form'":1,
+ "I select 'Merchant Application Forms'":1,
+ "I select 'United States of America' as region":1,
+ "I should see application number's first three digits as 'USA'":1,
+ "I'm at Login Page":2,
+ "I type nothing in username and password field":1,
+ "I Press \"Sign in\"":2,
+ "I should see Authentication failed":1,
+ "I type username":1,
+ "I type password":1,"I can see Status section":1}
